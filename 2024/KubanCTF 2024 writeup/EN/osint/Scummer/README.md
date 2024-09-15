@@ -1,14 +1,14 @@
 # Scammer 
---- 
+
 >Level: Medium 
 > 
 >In the last message received by our analysts, a troubling name was mentioned — kubaneagle2000. This alias became the key to the mystery our intelligence team is trying to solve. Accused of revealing corporate secrets, kubaneagle2000 remains an enigma. For now, the trail only leads to this codename, but we believe that soon this virtual scammer will be exposed. We await your successful achievements and hope you can unravel this complex chain of events. 
 
 ## About the Task
----
+
 This is a simple task of searching for a nickname online, which smoothly transitions into a steganographic puzzle (searching for hidden information in an image).  
 ## How to Solve 
---- 
+
 The very first thing that comes to mind in such tasks is to search for the nickname "kubaneagie2000." We can use standard tools for this, like the command: 
 
 ```Shell
@@ -43,7 +43,7 @@ In our case, the hint for the necessary image was in VK: [https://vk.com/kubanea
 
 Following the link, we see a picture:
 
-![[346947819847550.jpg]]
+![346947819847550.jpg](images/346947819847550.jpg)
 
 Google Lens tells us that this is Krasnaya Polyana in Sochi, Russia, but that’s not very important to us. We need to download the photo and check if the flag is hidden in it.
 
