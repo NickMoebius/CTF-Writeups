@@ -16,7 +16,7 @@ The challenge description mentions "a popular directory's reviews." The most pop
 
 It's crucial that the quarries are **within the city limits**, so in **2gis**, click on "Saint Petersburg" to display the city borders as a faint blue line. There are many quarries around Saint Petersburg, and **2gis** tends to suggest places even outside your search area, so we need to stay within these boundaries during our search.
 
-![city-borders](CyberSecurity/CTF-Writeups/2024/KubanCTF%202024%20writeup/EN/osint/Illegal%20Advertising/images/city-borders.jpg)
+![city-borders](images/city-borders.jpg)
 
 Next, search for "карьер" and try to find relevant ones while reviewing any attached photos and reviews.
 
@@ -40,14 +40,14 @@ My attention quickly shifted to the **Firefighters’ Heroes Park**, which had b
 
 Additionally, the hint provided crucial information: the advertisement was placed near a **gazebo**. Fortunately, **2gis** conveniently shows gazebos ("беседка") on its map.
 
-![alcove](CyberSecurity/CTF-Writeups/2024/KubanCTF%202024%20writeup/EN/osint/Illegal%20Advertising/images/alcove.jpg)
+![alcove](images/alcove.jpg)
 
 I checked all the gazebos within the initially relevant quarries and the ponds of **Firefighters’ Heroes Park**, where users had also left reviews.
 
 The correct gazebo was quickly found: [link to 2gis](https://2gis.ru/spb/search/%D0%B1%D0%B5%D1%81%D0%B5%D0%B4%D0%BA%D0%B0/geo/70030076429075570?m=30.408271%2C59.853555%2F16.13)
 
 In the reviews, there was a photo with a QR code attached to a poster: 
-![qr-code](CyberSecurity/CTF-Writeups/2024/KubanCTF%202024%20writeup/EN/osint/Illegal%20Advertising/images/qr-code.jpg)
+![qr-code](images/qr-code.jpg)
 [Original photo](https://i0.photo.2gis.com/photo-gallery/f0e177a8-4041-4702-a4f9-19f1beaec8c2.jpg)
 
 After scanning the QR code, we get the flag:
